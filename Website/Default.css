@@ -1,0 +1,51 @@
+body.main {
+    background-image: url(../Fotos/AchtergrondIndex.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* *** Navigatie *** */
+nav ul {
+list-style-type: none;
+background-color: black;
+padding: 0%;
+margin: 0%;
+overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li.heading {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  li.active {
+    background-color: aqua;
+    color: black;
+  }
