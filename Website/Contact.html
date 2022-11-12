@@ -14,16 +14,43 @@
         <nav>
             <a href="Index.html"><img src="../Fotos/NaamLogo.png" alt="Logo" class="logo-img"></a>
             <ul>
-                <li> <a href="CV.html">CV</a></li>
-                <li> <a href="Ervaring.html">Ervaring</a></li>
-                <li> <a href="Hobbys.html">Hobbys</a></li>
                 <li class="active"> <a href="Contact.html">Contact</a></li>
+                <li> <a href="Hobbys.html">Hobbys</a></li>
+                <li> <a href="Ervaring.html">Ervaring</a></li>
+                <li> <a href="CV.html">CV</a></li>
             </ul>
         </nav>
     </section>
+
     <header>
         <h1>Contactformulier</h1>
     </header>
+
+    <p class="center">
+        Hé, tof dat je contact met mij wilt opnemen! <br>
+        Vul onderstaand formulier in en dan mag je zeker een antwoord terug verwachten. <br>
+        Tot snel!
+    </p>
+
+    <form action="/contactformulier.php" target="_blank" method="post">
+        <div>
+            <label>Voornaam</label>
+            <input type="text" name="firstname" placeholder="Voornaam" required>
+            <label>Familienaam</label>
+            <input type="text" name="lastname" placeholder="Familienaam" required><br>
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="email" required>
+            <label>Telefoonnummer</label>
+            <input type="tel" name="Telefoonnummer" placeholder="Nummer">
+        </div>
+        <div>
+            <textarea placeholder="Wat is je vraag?" rows="5" required></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Verzenden" />
+        </div>
+    </form>
+
     <footer>&copy; Lieve Hindriks</footer>
 </body>
 </html>

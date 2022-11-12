@@ -45,6 +45,21 @@ header {
   color: fuchsia;
   font-family: 'Courgette', cursive;
   text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+p {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+form {
+  color: white;
+  text-align: center;
 }
 
 footer {
