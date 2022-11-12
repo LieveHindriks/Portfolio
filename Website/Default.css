@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    color: white;
 }
 
 
@@ -41,7 +42,7 @@ nav li a {
 
 /* *** Einde Navigatie *** */
 
-header {
+header{
   color: fuchsia;
   font-family: 'Courgette', cursive;
   text-align: center;
@@ -49,12 +50,47 @@ header {
   font-size: xx-large;
 }
 
-p {
+h2 {
+  color: aqua;
+  font-family: 'Courgette', cursive;
+  text-align: left;
+}
+
+a {
   color: white;
+  text-decoration: underline fuchsia;
+}
+
+h2 {
+  text-align: center;
+}
+
+a:hover {
+  background-color: fuchsia;
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  font-weight: bolder;
+}
+
+.up {
+  text-align: center;
 }
 
 .center {
   text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 form {
@@ -62,10 +98,13 @@ form {
   text-align: center;
 }
 
+img {
+  height: 100px;
+}
+
 footer {
-  background-color: aqua;
   color: fuchsia;
   padding: 14px;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
 }
