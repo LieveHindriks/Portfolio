@@ -3,7 +3,7 @@ body {
 }
 
 
-/* *** Navigatie *** */
+/* *** Begin Navigatie *** */
 nav ul {
 list-style-type: none;
 background-color: black;
@@ -39,12 +39,18 @@ nav li a {
     background-color: aqua;
   }
 
-  #background-img {
-    background-image: url(../Fotos/AchtergrondIndex.jpg);
-    background-color: black;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+/* *** Einde Navigatie *** */
+
+header {
+  color: fuchsia;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+footer {
+  background-color: aqua;
+  color: fuchsia;
+  padding: 14px;
+  font-weight: bold;
+  text-align: right;
 }
