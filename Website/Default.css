@@ -3,6 +3,7 @@ body {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* *** Begin Navigatie *** */
@@ -29,7 +30,7 @@ nav li a {
   .logo-img {
     float: left;
     display: block;
-    height: 50px;
+    height: 100px;
   }
 
   li a:hover {
@@ -92,6 +93,84 @@ nav li a {
   float: right;
 }
 
+.content-center {
+  width: 100%;
+  clear: both;
+}
+
+.ervaring-center {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* *** Begin form *** */
+form {
+  color: aqua;
+  text-align: center;
+}
+
+.left-form {
+  padding-left: 25%;
+  float: left;
+  text-align: left;
+}
+
+.right-form {
+  padding-right: 25%;
+  float: right;
+  text-align: left;
+}
+
+.center-form {
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+  input[type="text"],[type="email"],[type="tel"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]{
+  background-color: fuchsia;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: aqua;
+}
+/* *** Einde form *** */
+
+body.main {
+  background-image: url(../Fotos/AchtergrondIndex.jpg);
+  background-color: black;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header{
   color: fuchsia;
   font-family: 'Courgette', cursive;
@@ -113,6 +192,7 @@ a {
 
 h2 {
   text-align: center;
+  clear: both;
 }
 
 a:hover {
@@ -144,14 +224,37 @@ li {
   float: right;
 }
 
-form {
-  color: white;
-  text-align: center;
+img {
+  padding-bottom: 20px;
+}
+
+.aqua {
+  color: aqua;
+  text-align: left;
+  padding-left: 10px;
+  position: fixed;
+  bottom: 10px;
+}
+
+.aqua a {
+  color: aqua;
 }
 
 footer {
   color: fuchsia;
-  padding: 14px;
   font-weight: bold;
-  text-align: center;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .content-left,
+  .content-right {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }

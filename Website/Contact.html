@@ -33,17 +33,19 @@
     </p>
 
     <form action="/contactformulier.php" target="_blank" method="post">
-        <div>
+        <div class="left-form">
             <label>Voornaam</label>
-            <input type="text" name="firstname" placeholder="Voornaam" required>
+            <input type="text" name="firstname" placeholder="Voornaam" required> <br>
             <label>Familienaam</label>
-            <input type="text" name="lastname" placeholder="Familienaam" required><br>
+            <input type="text" name="lastname" placeholder="Familienaam" required>
+        </div>
+        <div class="right-form">
             <label>E-mail</label>
-            <input type="email" name="email" placeholder="email" required>
+            <input type="email" name="email" placeholder="voorbeeld@mail.be" required> <br>
             <label>Telefoonnummer</label>
             <input type="tel" name="Telefoonnummer" placeholder="Nummer">
         </div>
-        <div>
+        <div class="center-form">
             <textarea placeholder="Wat is je vraag?" rows="5" required></textarea>
         </div>
         <div>
