@@ -1,8 +1,9 @@
 body {
     background-color: black;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
 
 /* *** Begin Navigatie *** */
 nav ul {
@@ -39,8 +40,57 @@ nav li a {
   li.active {
     background-color: aqua;
   }
-
 /* *** Einde Navigatie *** */
+
+/* *** Begin tabellen *** */
+#talen {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#talen th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: fuchsia;
+  color: black;
+}
+
+#talen td, #talen th {
+  border: 1px solid fuchsia;
+}
+
+#pc {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+#pc th, #pc td {
+  border: 1px solid aqua;
+}
+/* *** Einde tabellen *** */
+
+.studie {
+  background-image: url(../Fotos/studie.jpg);
+  background-color: black;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content-left {
+  width: 45%;
+  float: left;
+}
+
+.content-right {
+  width: 45%;
+  float: right;
+}
 
 header{
   color: fuchsia;
@@ -79,6 +129,7 @@ li {
 
 .up {
   text-align: center;
+  clear: both;
 }
 
 .center {
@@ -96,10 +147,6 @@ li {
 form {
   color: white;
   text-align: center;
-}
-
-img {
-  height: 100px;
 }
 
 footer {
