@@ -71,6 +71,10 @@ nav li a {
 #pc th, #pc td {
   border: 1px solid aqua;
 }
+
+caption {
+  padding-top: 15px;
+}
 /* *** Einde tabellen *** */
 
 .studie {
@@ -96,6 +100,10 @@ nav li a {
 .work ul.content-left {
   padding-left: 50%;
   color: white;
+}
+
+.work li:hover, .studie li:hover {
+  background-color: lightslategray;
 }
 
 .img-left {
@@ -261,7 +269,8 @@ p {
 }
 
 li {
-  font-weight: bolder;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .up {
@@ -287,6 +296,16 @@ img {
 
 .aqua a {
   color: aqua;
+}
+
+.studie-left {
+  width: 50%;
+  text-align: left;
+}
+
+.work-right {
+  padding-left: 50%;
+  text-align: left;
 }
 
 footer {
