@@ -30,7 +30,7 @@ nav li a {
   .logo-img {
     float: left;
     display: block;
-    height: 100px;
+    height: 150px;
   }
 
   li a:hover {
@@ -76,26 +76,55 @@ nav li a {
 .studie {
   background-image: url(../Fotos/studie.jpg);
   background-color: black;
-  height: 400px;
+  min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.content-left {
-  width: 45%;
+.work {
+  background-image: url(../Fotos/work.jpg);
+  background-color: black;
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.work ul.content-left {
+  padding-left: 50%;
+  color: white;
+}
+
+.img-left {
+  width: 50%;
   float: left;
 }
 
-.content-right {
-  width: 45%;
+.img-right {
+  width: 50%;
   float: right;
 }
 
+.content-left {
+  width: 50%;
+  float: left;
+  padding-top: 150px;
+}
+
+.content-right {
+  width: 50%;
+  float: right;
+  padding-top: 150px;
+}
+
 .content-center {
-  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
   clear: both;
+  text-align: center;
 }
 
 .ervaring-center {
@@ -169,14 +198,42 @@ body.main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+body.main p {
+  color: fuchsia;
+  font-size: x-large;
+}
+
+p#eerst {
+  padding-left: 60%;
+  text-align: left;
+}
+
+p#laatst {
+  padding-left: 50%;
+  text-align: right;
+}
+
+body.main header {
+  padding-left: 50%;
+  color: aqua;
 }
 
 header{
   color: fuchsia;
-  font-family: 'Courgette', cursive;
+  font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bolder;
   font-size: xx-large;
+}
+
+.aqua {
+  color: aqua;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 200px;
 }
 
 h2 {
@@ -226,14 +283,6 @@ li {
 
 img {
   padding-bottom: 20px;
-}
-
-.aqua {
-  color: aqua;
-  text-align: left;
-  padding-left: 10px;
-  position: fixed;
-  bottom: 10px;
 }
 
 .aqua a {
