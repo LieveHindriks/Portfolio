@@ -78,7 +78,7 @@ caption {
 /* *** Einde tabellen *** */
 
 .studie {
-  background-image: url(../Fotos/studie.jpg);
+  background-image: url(../images/studie.jpg);
   background-color: black;
   min-height: 400px;
   background-position: center;
@@ -88,7 +88,7 @@ caption {
 }
 
 .work {
-  background-image: url(../Fotos/work.jpg);
+  background-image: url(../images/work.jpg);
   background-color: black;
   min-height: 400px;
   background-position: center;
@@ -200,7 +200,7 @@ input[type="submit"]:hover {
 /* *** Einde form *** */
 
 body.main {
-  background-image: url(../Fotos/AchtergrondIndex.jpg);
+  background-image: url(../images/AchtergrondIndex.jpg);
   background-color: black;
   height: 100%;
   background-position: center;
