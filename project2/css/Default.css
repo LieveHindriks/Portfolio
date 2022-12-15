@@ -1,50 +1,27 @@
 body {
-    background-color: black;
-    color: white;
     padding-left: 10px;
     padding-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* *** Begin Navigatie *** */
-nav ul {
-list-style-type: none;
-background-color: black;
-padding: 0%;
-margin: 0%;
-overflow: hidden;
+/* --- Begin Navigatie --- */
+.navbar {
+  font-weight: bold;
+  font-size: x-large;
+  border-bottom: 2px solid aqua;
 }
 
-nav li {
-    float: right;
+a.nav-link{
+  color: fuchsia;
 }
 
-nav li a {
-    display: block;
-    color: fuchsia;
-    text-align: right;
-    padding: 20px 16px;
-    text-decoration: none;
-  }
-
-  .logo-img {
-    float: left;
-    display: block;
-    height: 150px;
-  }
-
-  li a:hover {
-    background-color: white;
-    color: black;
-  }
-
-  li.active {
-    background-color: aqua;
-  }
-/* *** Einde Navigatie *** */
+a.nav-link:hover{
+  color: aqua;
+}
+/* --- Einde Navigatie --- */
 
 /* *** Begin tabellen *** */
-#talen {
+/* #talen {
   width: 100%;
   text-align: center;
   border-collapse: collapse;
@@ -74,10 +51,10 @@ nav li a {
 
 caption {
   padding-top: 15px;
-}
+} */
 /* *** Einde tabellen *** */
 
-.studie {
+/* .studie {
   background-image: url(../images/studie.jpg);
   background-color: black;
   min-height: 400px;
@@ -85,9 +62,9 @@ caption {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
 
-.work {
+/* .work {
   background-image: url(../images/work.jpg);
   background-color: black;
   min-height: 400px;
@@ -109,9 +86,9 @@ caption {
 .img-left {
   width: 50%;
   float: left;
-}
+} */
 
-.img-right {
+/* .img-right {
   width: 50%;
   float: right;
 }
@@ -138,10 +115,10 @@ caption {
 .ervaring-center {
   padding-left: 25%;
   padding-right: 25%;
-}
+} */
 
 /* *** Begin form *** */
-form {
+/* form {
   color: aqua;
   text-align: center;
 }
@@ -196,10 +173,10 @@ input[type="submit"]{
 
 input[type="submit"]:hover {
   background-color: aqua;
-}
+} */
 /* *** Einde form *** */
 
-body.main {
+/* body.main {
   background-image: url(../images/AchtergrondIndex.jpg);
   background-color: black;
   height: 100%;
@@ -262,9 +239,9 @@ h2 {
 
 a:hover {
   background-color: fuchsia;
-}
+} */
 
-p {
+/* p {
   text-align: center;
 }
 
@@ -312,7 +289,6 @@ footer {
   color: fuchsia;
   font-weight: bold;
   text-align: right;
-  position: fixed;
   bottom: 0;
   right: 25px;
   width: 100%;
@@ -325,4 +301,4 @@ footer {
     padding-right: 0px;
     padding-left: 0px;
   }
-}
+} */
