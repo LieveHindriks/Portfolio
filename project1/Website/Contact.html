@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Lieve Hindriks">
+    <title>Contact</title>
+    <link rel="stylesheet" href="default.css" type="text/CSS" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Fotos/favicon.ico" type="image/ico">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <a href="index.html"><img src="../Fotos/NaamLogo.png" alt="Logo" class="logo-img"></a>
+            <ul>
+                <li class="active"> <a href="contact.html">Contact</a></li>
+                <li> <a href="hobbys.html">Hobbys</a></li>
+                <li> <a href="ervaring.html">Ervaring</a></li>
+                <li> <a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header>
+        <h1>Contactformulier</h1>
+    </header>
+
+    <p class="center">
+        Hé, tof dat je contact met mij wilt opnemen! <br>
+        Vul onderstaand formulier in en dan mag je zeker een antwoord terug verwachten. <br>
+        Tot snel!
+    </p>
+
+    <form action="/contactformulier.php" target="_blank" method="post">
+        <div class="left-form">
+            <label>Voornaam</label>
+            <input type="text" name="firstname" placeholder="Voornaam" required> <br>
+            <label>Familienaam</label>
+            <input type="text" name="lastname" placeholder="Familienaam" required>
+        </div>
+        <div class="right-form">
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="voorbeeld@mail.be" required> <br>
+            <label>Telefoonnummer</label>
+            <input type="tel" name="Telefoonnummer" placeholder="Nummer">
+        </div>
+        <div class="center-form">
+            <input type="text" name="subject" placeholder="Onderwerp" required>
+            <textarea placeholder="Wat is je vraag?" rows="5" required></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Verzenden" />
+        </div>
+    </form>
+
+    <footer>&copy; Lieve Hindriks 2022</footer>
+</body>
+</html>
