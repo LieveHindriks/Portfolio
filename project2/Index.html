@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/Default.css" type="text/CSS" />
     <link rel="stylesheet" href="vendor/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courgette&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="icon" href="images/favicon.ico" type="image/ico">
     <meta name="Author" content="Lieve Hindriks">
     <title>index</title>
@@ -14,7 +15,7 @@
 
 <body>
     <nav class="navbar navbar-expand-md">
-        <div class="container-md">
+        <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="images/NaamLogo.png" alt="Logo" width="70">
             </a>
@@ -24,29 +25,78 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto mb-2 mb-lb-0">
                     <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
                     <a class="nav-link" href="hobbys.html">Hobbys</a>
                     <a class="nav-link" href="ervaring.html">Ervaring</a>
                     <a class="nav-link" href="cv.html">CV</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <p id="eerst">Hey! ik ben</p>
-    <header>
-        <h1>Lieve</h1>
-    </header>
-    <p id="laatst">Student programmeur aan de <br> Thomas More hoge school.</p>
+    <main>
+        <div class="px-4 py-5 my-5 text-center">
+            <p class="lead mb-4">Hey! ik ben</p>
+            <p class="display-5 fw-bold">Lieve</p>
+            <p class="lead mb-4">Student programmeur aan de Thomas More hoge school.</p>
+            <img class="d-block mx-auto mb-4" src="images/index.jpg" alt="laptop" height="150">
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Mijn specialiteit is het zien van oplossingen in plaats van problemen. <br>
+                Kijk gerust even rond op de website om meer over mij te weten te komen. <br>
+                Geïnteresseerd? Of wil je gewoon nog meer over mij weten. <br>
+                Aarzel dan zeker niet om contact met mij op te nemen.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="Contact.html"></a>Contact</button>
+              </div>
+            </div>
+          </div>
 
-    <div class="aqua">
-        Mijn specialiteit is het zien van oplossingen in plaats van problemen. <br>
-        Kijk gerust even rond op de website om meer over mij te weten te komen. <br>
-        Geïnteresseerd? Of wil je gewoon nog meer over mij weten. <br>
-        Aarzel dan zeker niet om <a href="contact.html">contact</a> met mij op te nemen.
+          <div class="container">
+            <div class="row">
+              <div class="col-md">
+                <div class="card">
+                    <a href="https://lieve-portfolio.be/project1/"><img src="images/AchtergrondIndex.jpg" alt="laptop" class="card-img-top"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Eerste portfolio</h5>
+                    <p class="card-text">Dit is de eerste website die ik gemaakt hebt tijdens mijn opleiding. Hierbij is enkel gebruik gemaakt van HTML en CSS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                  <a href="https://www.thomasmore.be/"><img src="images/ThomasMore.png"  alt="ThomasMore" class="card-img-top"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Thomas More</h5>
+                    <p class="card-text">Op deze school volg ik mijn huidige opleiding om een volwaardige programmeur te worden.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card">
+                  <a href="https://github.com/LieveHindriks"><img src="images/github.jpg" alt="GitHub" class="card-img-top" ></a>
+                  <div class="card-body">
+                    <h5 class="card-title">GitHub</h5>
+                    <p class="card-text">Hier kunt u mijn GitHub profiel bekijken. U kan hier nog projecten op terug vinden waarmee ik al heb gewerkt tijdens de opleiding.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+        
+    <div class="container-fluid static-bottom" >
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
+            <div>
+                &copy; Lieve Hindriks 2022
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook" role="link" aria-label="Facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram" role="link" aria-label="Instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="bi bi-linkedin" role="link" aria-label="LinkedIn"></i></a>
+                <a href="https://github.com/LieveHindriks"><i class="bi bi-github" role="link" aria-label="GitHub"></i></a>
+            </div>
+        </footer>
     </div>
-    
-    <footer>&copy; Lieve Hindriks 2022</footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
