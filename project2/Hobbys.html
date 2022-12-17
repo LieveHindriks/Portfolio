@@ -34,45 +34,67 @@
         </div>
     </nav>
 
-    <header>
+    <main class="container-fluid text-center">
         <h1>Hobby's</h1>
-    </header>
+        <p>Als je wat meer informatie wilt over wat ik doe in mijn vrije tijd, kan je die hieronder terug vinden.</p>
 
-    <h2>Gezin</h2>
-    <img src="images/boswandeling.jpg" alt="Boswandeling" class="img-right">
-    <p class="content-left">
-        Ik vind het heerlijk om met het gezin uitstapjes te doen waarbij iedereen zijn energie in kwijt kan. <br> 
-        Denk hierbij maar aan een leuke boswandeling met een hindernissen parcours of een leuke buiten en binnen speeltuin.
-    </p>
-    <p class="content-center"> 
-        Ook heb ik een zoon dat helemaal gek is van programmeren. 
-        Hij heeft dan ook als hobby programmeer lessen, voorlopig nog enkel met ‘Scratch’. 
-        Hij heeft wel al een voorproefje gehad van Javascript met zijn Minecraft programeer kamp. 
-        Wanneer we een me-time momentje hebben, wilt hij dan ook vaak samen op de computer ‘zijn games’ uitwerken.
-    </p>
-    <img src="images/Cupcakes.jpg" alt="Cupcakes" class="img-left">
-    <p class="content-right">
-        Samen bakken met de kinderen is hier ook een top activiteit. <br>
-        Taken verdelen wie wat moet doen om als een echt team een heerlijke cake op tafel te kunnen krijgen.
-    </p>
-
-    <h2>Brain-Trainers</h2>
-    <img src="images/puzzel.jpg" alt="Puzzel" class="img-right">
-    <p class="content-left">
-        Als ik een momentje voor mezelf heb speel ik graag spelletjes waarbij ik puzzels moet oplossen. Mijn topfavorieten zijn Sudoku en de Japanse puzzel. <br>
-        Mijn vrienden weten dat ze mij altijd blij kunnen maken met een brain-trainer puzzel. Bijvoorbeeld waarbij je een doosje op een bepaalde manier moet open maken, of een sleutel ergens moet kunnen uithalen. Hier kan ik wel uren mee bezig zijn.
-    </p>
-
-    <h2>Sport</h2>
-    <p class="content-center">Ik probeer ook wat te doen aan mijn algemene conditie. 1 keer per week doe ik aan Kickboksen voor enkel vrouwen. Als ik dan nog een momentje vrij vind ga ik met een vriendin naar de Zumba les.</p>
-
-    <h2>Gezelschapsspellen</h2>
-    <img src="images/bordspel.jpg" alt="Bordspel" class="img-left">
-    <p class="content-right"> 
-        Regelmatig proberen we een gezelschapsspel-avond te organiseren. Zowel met de familie als met vrienden en soms met kinderen, soms zonder. Dit ligt er vaak aan welk soort spel er gespeeld wordt. Absolute favorieten zijn hier: Monopoly, de Kolonisten van Catan en Escape room.
-    </p>
-    <p class="up"><a href="#">Naar boven</a></p>
-
+        <div id="carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/hobbys/boswandeling.jpg" class="d-block w-100" alt="boswandeling">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Ik vind het heerlijk om met het gezin uitstapjes te doen waarbij iedereen zijn energie in kwijt kan. <br> 
+                            Denk hierbij maar aan een leuke boswandeling met een hindernissen parcours of een leuke buiten en binnen speeltuin.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hobbys/scratch.png" class="d-block w-100" alt="scratch">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Ook heb ik een zoon dat helemaal gek is van programmeren. 
+                            Hij heeft dan ook als hobby programmeer lessen, voorlopig nog enkel met ‘Scratch’. 
+                            Hij heeft wel al een voorproefje gehad van Javascript met zijn Minecraft programeer kamp. 
+                            Wanneer we een me-time momentje hebben, wilt hij dan ook vaak samen op de computer ‘zijn games’ uitwerken.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hobbys/bakken.jpg" class="d-block w-100" alt="bakken">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Samen bakken met de kinderen is hier ook een top activiteit. <br>
+                            Taken verdelen wie wat moet doen om als een echt team een heerlijke cake op tafel te kunnen krijgen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hobbys/braintrainer.jpg" class="d-block w-100" alt="braintrainer">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Als ik een momentje voor mezelf heb speel ik graag spelletjes waarbij ik puzzels moet oplossen. Mijn topfavorieten zijn Sudoku en de Japanse puzzel. <br>
+                        Mijn vrienden weten dat ze mij altijd blij kunnen maken met een brain-trainer puzzel. Bijvoorbeeld waarbij je een doosje op een bepaalde manier moet open maken, of een sleutel ergens moet kunnen uithalen. Hier kan ik wel uren mee bezig zijn.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hobbys/kickbox.jpg" class="d-block w-100" alt="kickbox">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Ik probeer ook wat te doen aan mijn algemene conditie. 1 keer per week doe ik aan Kickboksen voor enkel vrouwen. Als ik dan nog een momentje vrij vind ga ik met een vriendin naar de Zumba les.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hobbys/game.jpg" class="d-block w-100" alt="game">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Regelmatig proberen we een gezelschapsspel-avond te organiseren. Zowel met de familie als met vrienden en soms met kinderen, soms zonder. Dit ligt er vaak aan welk soort spel er gespeeld wordt. Absolute favorieten zijn hier: Monopoly, de Kolonisten van Catan en Escape room.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+                        
     <div class="container-fluid static-bottom" >
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
             <div>
